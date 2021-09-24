@@ -2,7 +2,7 @@
 #### Data Science / Machine Learning Portfolio
 
 
-# Project 1: Pet Classification Model Using CNN.
+# [Project 1: Pet Classification Model Using CNN.](Deep_learning_pet_classification_project.ipynb)
 
    Build a CNN model that classifies the given pet images correctly into dog and 
 cat images.
