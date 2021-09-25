@@ -29,3 +29,21 @@ Comcast. It will help to pin down what is wrong with Comcast's customer service.
 
 #### Packages and Tools: 
    Pandas, Numpy, Matplotlib, Seaborn.
+
+
+# [Project 3: Amazon Review Sentiment Analysis](https://github.com/Kiranshankarbhat007/Data-Science-and-ML-Projects-/blob/master/Amazon%20Review%20Sentiment%20Analysis%20Prediction.ipynb)
+      Sentiment analysis by classifying the text to check whwther thw coustomer is happy or not
+Sentiment analysis using Amazon's Reviews given by the Amazon users on the products purchesed by the amazon coustomer. This data is real business data with all the info like name of coustomer, user_id of a coustomer and meny more with 1 to 5 rating and the reviews on specific products. This dataset consists of a few million Amazon customer reviews (Text) and star ratings (Score) for learning how to train Reviews.csv for sentiment analysis. The idea here is a dataset is more than a toy - real business data on a reasonable scale - but can be trained in minutes on a modest laptop.
+* We are actually predict the sentiment of a coustomer by classifying the review text to class 1 or 0, 1 means Happy, 0 means Not happy
+### Task:
+   Sampling of this huge data for less time comutation, Text preprossing and transformation, model building for sentiment analysis
+### ML Algorithm:
+   Naive Bayes Algotithm
+ ### Tools:
+   Pandas, Numpy, Matplotlib, NLTK, Sklearn 
+ 
+ # [Project 4: Churn_rate_modeling_ANN_Model](https://github.com/Kiranshankarbhat007/Data-Science-and-ML-Projects-/blob/master/Churn_rate_modeling_ANN_Model_.ipynb)
+    Classifying the data check the churn_rate of a bank coustomer whether HE/She continue the bank services or not in the future
+ We are predicting the churn rate for a bank, whether a coustomer of a bank will leave the bank or not in thr future. Basically the bank provided the data of there coustomers with there bank balance, credit score ect. to predict whether the coustomer will stop his banking activities in the future or they will continue the service of the bank. We are classifying the data for the class 1 and 0 to ckeck the churn_rate using ANN.
+
+   
