@@ -31,6 +31,7 @@ Comcast. It will help to pin down what is wrong with Comcast's customer service.
    Pandas, Numpy, Matplotlib, Seaborn.
 
 
+
 # [Project 3: Amazon Review Sentiment Analysis](https://github.com/Kiranshankarbhat007/Data-Science-and-ML-Projects-/blob/master/Amazon%20Review%20Sentiment%20Analysis%20Prediction.ipynb)
       Sentiment analysis by classifying the text to check whwther thw coustomer is happy or not
 Sentiment analysis using Amazon's Reviews given by the Amazon users on the products purchesed by the amazon coustomer. This data is real business data with all the info like name of coustomer, user_id of a coustomer and meny more with 1 to 5 rating and the reviews on specific products. This dataset consists of a few million Amazon customer reviews (Text) and star ratings (Score) for learning how to train Reviews.csv for sentiment analysis. The idea here is a dataset is more than a toy - real business data on a reasonable scale - but can be trained in minutes on a modest laptop.
@@ -42,8 +43,21 @@ Sentiment analysis using Amazon's Reviews given by the Amazon users on the produ
  ### Tools:
    Pandas, Numpy, Matplotlib, NLTK, Sklearn 
  
+ 
+ 
  # [Project 4: Churn_rate_modeling_ANN_Model](https://github.com/Kiranshankarbhat007/Data-Science-and-ML-Projects-/blob/master/Churn_rate_modeling_ANN_Model_.ipynb)
     Classifying the data check the churn_rate of a bank coustomer whether HE/She continue the bank services or not in the future
- We are predicting the churn rate for a bank, whether a coustomer of a bank will leave the bank or not in thr future. Basically the bank provided the data of there coustomers with there bank balance, credit score ect. to predict whether the coustomer will stop his banking activities in the future or they will continue the service of the bank. We are classifying the data for the class 1 and 0 to ckeck the churn_rate using ANN.
+   We are predicting the churn rate for a bank, whether a coustomer of a bank will leave the bank or not in thr future. Basically the bank provided the data of there coustomers with there bank balance, credit score ect. to predict whether the coustomer will stop his banking activities in the future or they will continue the service of the bank. We are classifying the data for the class 1 and 0 to ckeck the churn_rate using ANN.
 
+
+# [Project 5: FAKE NEWS Classification.](https://github.com/Kiranshankarbhat007/Data-Science-and-ML-Projects-/blob/master/FAKE%20NEWS%20Classification.ipynb)
+   A text classification problem to classify a news that is fake or real. The dataset contains the auther of the news article with a detail description of tha news and with the label of 1 or 0. The label 1 indicates the news is Fake and 0 indicates the news is real.
+   * First we are cleaning the text data by removing stopwords and other entries like numbers and special characters (+-*<>!@#$%.,.ect).
+   * We are stemmimg the words to there respective root words for better understing fo rthe algorithm.
+   * We are converting the text data into numerical  vectors before feeding the data to the algorithm using TfidfVectorizer.  
+   * Using Sklearn's Logistic regresion algorithm we are classifying the text.
+#### * Packages and Tools: 
+   Pandas, Numpy, Matplotlib, Seaborn.Sklearn, NKTL.
    
+   
+
