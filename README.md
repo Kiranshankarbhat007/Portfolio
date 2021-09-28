@@ -24,8 +24,7 @@ the array, create, compile and optimize the model.
    * XGBootRegressor is used to predict the time taken for the a car in testbanch.
  
   
- 
- # [Project 3: Churn_rate_modeling_ANN_Model](https://github.com/Kiranshankarbhat007/Data-Science-and-ML-Projects-/blob/master/Churn_rate_modeling_ANN_Model_.ipynb)
+# [Project 3: Churn_rate_modeling_ANN_Model](https://github.com/Kiranshankarbhat007/Data-Science-and-ML-Projects-/blob/master/Churn_rate_modeling_ANN_Model_.ipynb)
    Classifying the data check the churn_rate of a bank coustomer whether HE/She continue the bank services or not in the future. We are predicting the churn rate for a bank, whether a coustomer of a bank will leave the bank or not in thr future. Basically the bank provided the data of there coustomers with there bank balance, credit score ect. to predict whether the coustomer will stop his banking activities in the future or they will continue the service of the bank. We are classifying the data for the class 1 and 0 to ckeck the churn_rate using ANN.
 
 # [Project 4: Amazon Review Sentiment Analysis](https://github.com/Kiranshankarbhat007/Data-Science-and-ML-Projects-/blob/master/Amazon%20Review%20Sentiment%20Analysis%20Prediction.ipynb)
