@@ -34,7 +34,7 @@ the array, create, compile and optimize the model.
    Sampling of this huge data for less time computation, Text preprossing and transformation, model building for sentiment analysis
 ### ML Algorithm:
    Naive Bayes Algotithm
- ### Tools:
+### Tools:
    Pandas, Numpy, Matplotlib, NLTK, Sklearn
 
 # [Project 5: FAKE NEWS Classification.](https://github.com/Kiranshankarbhat007/Data-Science-and-ML-Projects-/blob/master/FAKE%20NEWS%20Classification.ipynb)
@@ -90,3 +90,7 @@ Comcast. It will help to pin down what is wrong with Comcast's customer service.
 
 #### Packages and Tools: 
    Pandas, Numpy, Matplotlib, Seaborn.
+
+
+
+# [Other Projects](https://github.com/Kiranshankarbhat007/Data-Science-and-ML-Projects-)
