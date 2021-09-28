@@ -9,11 +9,11 @@
 
 # [Project 2: Mercedes-Benz Testing Time Consumption](https://github.com/Kiranshankarbhat007/Data-Science-and-ML-Projects-/blob/master/ML_Mercedes-Benz_Project.ipynb)
    This is Regession problem where we have to predict the time taken for a Mercedes-Benz car for overall testing process before hitting the road. To ensure the safety and reliability of each and every unique car configuration before they hit the road, Daimler’s engineers have developed a robust testing system and they want to optimizing the speed of their testing system for so many possible feature combinations is complex and time-consuming without a powerful ML algorithmic approach. The dataset representing different permutations of Mercedes-Benz car features to predict the time it takes to pass testing.
-   * The main challenge in the data is its huge dimention, they provided many possible permutations of features of the testing procedure with a output variable 'Y' as time consumption.
-   * The features are not labeled with a specific test procedure, rather just mentioned with some 'X' values.
-   * Also the data contains some categirical features and we should transform that to numeric before using for the prediction. We are using Sklearn's LabelEncoder to convert.
+   * The main challenge in the data is its huge dimension, they provided many possible permutations of features of the testing procedure with a output variable 'Y' as time consumption.
+   * The features are not labelled  with a specific test procedure, rather just mentioned with some 'X' values.
+   * Also the data contains some categorical  features and we should transform that to numeric before using for the prediction. We are using Sklearn's LabelEncoder to convert.
    * from sklearn.decomposition library we are using PCA to tackle the curse of dimensionality.
-   * XGBootRegressor is used to predict the time taken for the a car in testbanch.
+   * XGBootRegressor is used to predict the time taken for a car in testbench.
  
   
 # [Project 3: Churn_rate_modeling_ANN_Model](https://github.com/Kiranshankarbhat007/Data-Science-and-ML-Projects-/blob/master/Churn_rate_modeling_ANN_Model_.ipynb)
@@ -27,17 +27,17 @@
 #### Tasks: 
    Import necessary packages and dataset, checking and cleaning the dataset, generating additional images from given set of images, converting the images to numpy array, reshaping the array, create, compile and optimize the model. 
 #### Packages and Tools:
-   Tensorflow with Keras, Pandas, Numpy, Sklearn, Matplotlib, ImageDataGenerator, img_to_array from Keras. Sequential Model with Convolutional Neural Network
+   Tensorflow with Keras, Pandas, Numpy, Sklearn, Matplotlib, ImageDataGenerator, img_to_array from Keras. Sequential Model with Convolutional Neural Network.
 
 # [Project 5: Amazon Review Sentiment Analysis](https://github.com/Kiranshankarbhat007/Data-Science-and-ML-Projects-/blob/master/Amazon%20Review%20Sentiment%20Analysis%20Prediction.ipynb)
-   Sentiment analysis by classifying the text to check whether the coustomer is happy or not.Sentiment analysis using Amazon's Reviews given by the Amazon users on the products purchesed by the amazon coustomer. This data is real business data with all the info like name of coustomer, user_id of a coustomer and meny more with 1 to 5 rating and the reviews on specific products. This dataset consists of a few million Amazon customer reviews (Text) and star ratings (Score) for learning how to train Reviews.csv for sentiment analysis. The idea here is a dataset is more than a toy - real business data on a reasonable scale - but can be trained in minutes on a modest laptop.
-* We are actually predict the sentiment of a coustomer by classifying the review text to class 1 or 0, 1 means Happy, 0 means Not happy
-### Task:
-   Sampling of this huge data for less time computation, Text preprossing and transformation, model building for sentiment analysis
-### ML Algorithm:
-   Naive Bayes Algotithm
-### Tools:
-   Pandas, Numpy, Matplotlib, NLTK, Sklearn
+   Sentiment analysis by classifying the text to check whether the coustomer is happy or not.Sentiment analysis using Amazon's Reviews given by the Amazon users on the products purchesed by the amazon coustomer. This data is real business data with all the info like name of coustomer, user_id of a coustomer and meny more with 1 to 5 rating and the reviews on specific products. This dataset consists of a few million Amazon customer reviews (Text) and star ratings (Score) for learning how to train Reviews.csv for sentiment analysis. The idea here is a dataset is more than a toy - real business data on a reasonable scale.
+* We are actually predict the sentiment of a coustomer by classifying the review text to class 1 or 0, 1 means Happy, 0 means Not happy.
+### * Task:
+   Sampling of this huge data for less time computation, Text preprossing and transformation, model building for sentiment analysis.
+### * ML Algorithm:
+   Naive Bayes Algotithm.
+### * Tools:
+   Pandas, Numpy, Matplotlib, NLTK, Sklearn.
 
 # [Project 6: FAKE NEWS Classification.](https://github.com/Kiranshankarbhat007/Data-Science-and-ML-Projects-/blob/master/FAKE%20NEWS%20Classification.ipynb)
    A text classification problem to classify a news that is fake or real. The dataset contains the auther of the news article with a detail description of tha news and with the label of 1 or 0. The label 1 indicates the news is Fake and 0 indicates the news is real.
@@ -74,12 +74,12 @@
 
 # [Project 10: Comcast Telecom Consumer Complaints EDA](https://github.com/Kiranshankarbhat007/Data-Science-and-ML-Projects-/blob/master/ComCast%20.ipynb)
 
-Comcast is an American global telecommunication company. The firm has be
-en providing terrible customer service. They continue to fall short despite repeated promises 
-to improve. Only last month (October 2016) the authority fined them a $2.3 million, after 
-receiving over 1000 consumer complaints.
-The existing database will serve as a repository of public customer complaints filed against 
-Comcast. It will help to pin down what is wrong with Comcast's customer service.
+Comcast is an American global telecommunication company. The firm has been providing terrible customer service. They continue to fall short despite repeated promises 
+to improve. Only last month (October 2016) the authority fined them a $2.3 million, after receiving over 1000 consumer complaints.The existing database will serve as a repository of public customer complaints filed against Comcast. It will help to pin down what is wrong with Comcast's customer service.
+* It is basically a EDA task to know what happened for the company to provide a good service.
+* We are analysing the data and visualizing it for the better understanding of what's wrong.
+* The Data contains about the coustomer and there related services and complaints. 
+* So we should give the insight about tha data to the company by analysing the data visually.  
 
 #### Task: 
    Exploratory Data Analysis.
