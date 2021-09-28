@@ -49,7 +49,7 @@
    Pandas, Numpy, Matplotlib, Seaborn.Sklearn, NKTL.
    
   
-# [project 7: Heart Disease Prediction.](https://github.com/Kiranshankarbhat007/Data-Science-and-ML-Projects-/blob/master/Heart%20Disease%20Prediction.ipynb)
+# [Project 7: Heart Disease Prediction.](https://github.com/Kiranshankarbhat007/Data-Science-and-ML-Projects-/blob/master/Heart%20Disease%20Prediction.ipynb)
    This ia a classification problem which is to predict the whether a person have heart disease or not by using there health replort including the madication they are following for other diseases. The data has a target variable with class 1 or 0, 1 indicates the person is suffering form heart related disese and 0 indicates a person is not suffering form heart related disease. By this project we can predict a person may suffer from heart related diseases in the future or not, if he/she continues the same health care including the medications he/she consuming.
    * First we are doing some data preprocessing and data  visualization for better understanding of the data.
    * we are using the GridsearchCV to check which model and model parameters are suitable for the prediction.
