@@ -37,7 +37,7 @@ Comcast. It will help to pin down what is wrong with Comcast's customer service.
 Sentiment analysis using Amazon's Reviews given by the Amazon users on the products purchesed by the amazon coustomer. This data is real business data with all the info like name of coustomer, user_id of a coustomer and meny more with 1 to 5 rating and the reviews on specific products. This dataset consists of a few million Amazon customer reviews (Text) and star ratings (Score) for learning how to train Reviews.csv for sentiment analysis. The idea here is a dataset is more than a toy - real business data on a reasonable scale - but can be trained in minutes on a modest laptop.
 * We are actually predict the sentiment of a coustomer by classifying the review text to class 1 or 0, 1 means Happy, 0 means Not happy
 ### Task:
-   Sampling of this huge data for less time comutation, Text preprossing and transformation, model building for sentiment analysis
+   Sampling of this huge data for less time computation, Text preprossing and transformation, model building for sentiment analysis
 ### ML Algorithm:
    Naive Bayes Algotithm
  ### Tools:
@@ -60,4 +60,39 @@ Sentiment analysis using Amazon's Reviews given by the Amazon users on the produ
    Pandas, Numpy, Matplotlib, Seaborn.Sklearn, NKTL.
    
    
+# [project 6: Heart Disease Prediction.](https://github.com/Kiranshankarbhat007/Data-Science-and-ML-Projects-/blob/master/Heart%20Disease%20Prediction.ipynb)
+   This ia a classification problem which is to predict the whether a person have heart disease or not by using there health replort including the madication they are following for other diseases. The data has a target variable with class 1 or 0, 1 indicates the person is suffering form heart related disese and 0 indicates a person is not suffering form heart related disease. By this project we can predict a person may suffer from heart related diseases in the future or not, if he/she continues the same health care including the medications he/she consuming.
+   * First we are doing some data preprocessing and data  visualization for better understanding of the data.
+   * we are using the GridsearchCV to check which model and model parameters are suitable for the prediction.
+   * we are trying with RandomForest, KNN and XGBoost models for the better prediction.
+
+
+# [Project 7: Spotify Song Attributes](https://github.com/Kiranshankarbhat007/Data-Science-and-ML-Projects-/blob/master/Spotify%20Song%20Attributes.ipynb)
+   A dataset of 2017 songs with attributes from Spotify. Each song is labeled "1" which mean people will like it and "0" for songs people don't like. I used this to data to see if I could build a classifier that could predict whether or not people would like a song. This data really doesnot contains any audio but it has information about 'acousticness','danceability','duration_ms','instrumentalness','loudness','song_title','artist', ect. to classify the song whether people will like it or not.
+ * We are doing some data preprocessing and  data  visualization for better analysis of the data.
+ * Some features are really skewed to left or right and we performaed some feature transformation techniques to remove the skewness of the data.
+ * We did feature scaling before feeding the data to the model.
+
+ 
+# [Project 8: Mercedes-Benz Testing Time Consumption](https://github.com/Kiranshankarbhat007/Data-Science-and-ML-Projects-/blob/master/ML_Mercedes-Benz_Project.ipynb)
+   This is Regession problem where we have to predict the time taken for a Mercedes-Benz car for overall testing process before hitting the road. To ensure the safety and reliability of each and every unique car configuration before they hit the road, Daimler’s engineers have developed a robust testing system and they want to optimizing the speed of their testing system for so many possible feature combinations is complex and time-consuming without a powerful ML algorithmic approach. The dataset representing different permutations of Mercedes-Benz car features to predict the time it takes to pass testing.
+   * The main challenge in the data is its huge dimention, they provided many possible permutations of features of the testing procedure with a output variable 'Y' as time consumption.
+   * The features are not labeled with a specific test procedure, rather just mentioned with some 'X' values.
+   * Also the data contains some categirical features and we should transform that to numeric before using for the prediction. We are using Sklearn's LabelEncoder to convert.
+   * from sklearn.decomposition library we are using PCA to tackle the curse of dimensionality.
+   * XGBootRegressor is used to predict the time taken for the a car in testbanch.
+
+
+# [Project 9: Kaggle - Car Price Prediction](https://github.com/Kiranshankarbhat007/Data-Science-and-ML-Projects-/blob/master/Kaggle%20-%20Car%20Price%20Prediction%20.ipynb)
+   This is Regession problem where we have to predict the price of a used car. The data used here is from kaggle and in the data we have details of the usd car like, 'Car_Name','Year','Kms_Driven','Owner', ect. to predict the cost of that used car. If we are buying a used car we must be carfull about the condition of the car and we need a expert advise about the car condition and the price demand of the owner. So this ML model will help to solve the basic confusion about buying the car.
+  * Did some data preprocessing and data cleaning.
+  * Visulizing the data for the better understanding of correlation betweeen the features and target variable.
+  * Used RandomizedSearchCV to choose diffetent parameters of RandomForest algorithm for the best prediction.
+
+
+# [Project 10: Advance House price prediction](https://github.com/Kiranshankarbhat007/Data-Science-and-ML-Projects-/blob/master/Kaggle%20-%20Advance%20House%20price%20prediction.ipynb)
+   This is Regession problem where we have to predict the price of a house. The data is taken from the kaggle and the data contains the features related to the land located area, sqfeet of the house, year of built, number of bed rooms and ect. to predict the peice of the house. If we have a data about the house and if we give tha data to our model then the model will predict the perice of the data. 
+   * We have a good number of featueres i.e we have 54 features and we must clean and preprocess the data before using it.
+   * We did feature scaling and feature selection for the better prediction.
+   * We did some visualization to know the relationship b/w the independent and dependent feature.
 
