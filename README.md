@@ -8,10 +8,10 @@
    * We did some visualization to know the relationship b/w the independent and dependent feature.
 
 # [Project 2: Mercedes-Benz Testing Time Consumption](https://github.com/Kiranshankarbhat007/Data-Science-and-ML-Projects-/blob/master/ML_Mercedes-Benz_Project.ipynb)
-   This is Regession problem where we have to predict the time taken for a Mercedes-Benz car for overall testing process before hitting the road. To ensure the safety and reliability of each and every unique car configuration before they hit the road, Daimler’s engineers have developed a robust testing system and they want to optimizing the speed of their testing system for so many possible feature combinations is complex and time-consuming without a powerful ML algorithmic approach. The dataset representing different permutations of Mercedes-Benz car features to predict the time it takes to pass testing.
+   This is Regression problem where we have to predict the time taken for a Mercedes-Benz car for overall testing process before hitting the road. To ensure the safety and reliability of each and every unique car configuration before they hit the road, Daimler’s engineers have developed a robust testing system and they want to optimizing the speed of their testing system for so many possible feature combinations is complex and time-consuming without a powerful ML algorithmic approach. The dataset representing different permutations of Mercedes-Benz car features to predict the time it takes to pass testing.
    * The main challenge in the data is its huge dimension, they provided many possible permutations of features of the testing procedure with a output variable 'Y' as time consumption.
    * The features are not labelled  with a specific test procedure, rather just mentioned with some 'X' values.
-   * Also the data contains some categorical  features and we should transform that to numeric before using for the prediction. We are using Sklearn's LabelEncoder to convert.
+   * Also the data contains some categorical features and we should transform that to numeric before using for the prediction. We are using Sklearn's LabelEncoder to convert.
    * from sklearn.decomposition library we are using PCA to tackle the curse of dimensionality.
    * XGBootRegressor is used to predict the time taken for a car in testbench.
  
@@ -30,8 +30,8 @@
    Tensorflow with Keras, Pandas, Numpy, Sklearn, Matplotlib, ImageDataGenerator, img_to_array from Keras. Sequential Model with Convolutional Neural Network.
 
 # [Project 5: Amazon Review Sentiment Analysis](https://github.com/Kiranshankarbhat007/Data-Science-and-ML-Projects-/blob/master/Amazon%20Review%20Sentiment%20Analysis%20Prediction.ipynb)
-   Sentiment analysis by classifying the text to check whether the coustomer is happy or not.Sentiment analysis using Amazon's Reviews given by the Amazon users on the products purchesed by the amazon coustomer. This data is real business data with all the info like name of coustomer, user_id of a coustomer and meny more with 1 to 5 rating and the reviews on specific products. This dataset consists of a few million Amazon customer reviews (Text) and star ratings (Score) for learning how to train Reviews.csv for sentiment analysis. The idea here is a dataset is more than a toy - real business data on a reasonable scale.
-* We are actually predict the sentiment of a coustomer by classifying the review text to class 1 or 0, 1 means Happy, 0 means Not happy.
+   Sentiment analysis by classifying the text to check whether the customer is happy or not.Sentiment analysis using Amazon's Reviews given by the Amazon users on the products purchased by the amazon customer . This data is real business data with all the info like name of customer , user_id of a customer  and meny more with 1 to 5 rating and the reviews on specific products. This dataset consists of a few million Amazon customer reviews (Text) and star ratings (Score) for learning how to train Reviews.csv for sentiment analysis. The idea here is a dataset is more than a toy - real business data on a reasonable scale.
+* We are actually predicting the sentiment of a customer  by classifying the review text to class 1 or 0, 1 means Happy, 0 means Not happy.
 ### * Task:
    Sampling of this huge data for less time computation, Text preprossing and transformation, model building for sentiment analysis.
 ### * ML Algorithm:
