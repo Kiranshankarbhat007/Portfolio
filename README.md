@@ -1,5 +1,5 @@
-# Portfolio
-#### Data Science / Machine Learning Portfolio
+# PROJECTS
+#### Data Science / Machine Learning Projects
 
 
 # [Project 1: Pet Classification Model Using CNN.](https://github.com/Kiranshankarbhat007/Data-Science-and-ML-Projects-/blob/master/Deep_learning_pet_classification_project.ipynb)
